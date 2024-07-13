@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .decoration-wavy {
+      text-decoration-line: line-through;
+      text-decoration-style: wavy;
+    }
+  }
