@@ -1,6 +1,6 @@
 import useTodoStore from "./TodoStore";
 
-const TodoItem = ({ todo }) => {
+const TodoItem = ({todo}) => {
   const { removeTodo, ToggleTodo } = useTodoStore();
   return (
     <>
